@@ -1,0 +1,15 @@
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
+
+operator = input('Выберите действие (+ - / *):')
+
+if operator == '+':
+    print(a + b)
+elif operator == '-':
+    print(a - b)
+elif operator == '/':
+    print(a / b)
+elif operator == '*':
+    print(a * b)
+else:
+    print('Допущенна ошибка при выборе действия')
