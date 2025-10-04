@@ -1,0 +1,712 @@
+
+a = int(input("Введите число от 1 до 10: "))
+x = input("Введите оператор (+ - * /): ")
+b = int(input("Введите число от 1 до 10: "))
+
+def calculator(a, x, b):
+
+  if x == '+':
+    if a==1 and b==1:
+        return 2
+    elif a == 1 and b == 2:
+        return 3
+    elif a == 1 and b == 3:
+        return 4
+    elif a == 1 and b == 4:
+        return 5
+    elif a == 1 and b == 5:
+        return 6
+    elif a == 1 and b == 6:
+        return 7
+    elif a == 1 and b == 7:
+        return 8
+    elif a == 1 and b == 8:
+        return 9
+    elif a == 1 and b == 9:
+        return 10
+    elif a == 1 and b == 10:
+        return 11
+
+    elif a == 2 and b == 1:
+        return 3
+    elif a == 2 and b == 2:
+        return 4
+    elif a == 2 and b == 3:
+        return 5
+    elif a == 2 and b == 4:
+        return 6
+    elif a == 2 and b == 5:
+        return 7
+    elif a == 2 and b == 6:
+        return 8
+    elif a == 2 and b == 7:
+        return 9
+    elif a == 2 and b == 8:
+        return 10
+    elif a == 2 and b == 9:
+        return 11
+    elif a == 2 and b == 10:
+        return 12
+
+    elif a == 3 and b == 1:
+        return 4
+    elif a == 3 and b == 2:
+        return 5
+    elif a == 3 and b == 3:
+        return 6
+    elif a == 3 and b == 4:
+        return 7
+    elif a == 3 and b == 5:
+        return 8
+    elif a == 3 and b == 6:
+        return 9
+    elif a == 3 and b == 7:
+        return 10
+    elif a == 3 and b == 8:
+        return 11
+    elif a == 3 and b == 9:
+        return 12
+    elif a == 3 and b == 10:
+        return 13
+
+    elif a == 4 and b == 1:
+        return 5
+    elif a == 4 and b == 2:
+        return 6
+    elif a == 4 and b == 3:
+        return 7
+    elif a == 4 and b == 4:
+        return 8
+    elif a == 4 and b == 5:
+        return 9
+    elif a == 4 and b == 6:
+        return 10
+    elif a == 4 and b == 7:
+        return 11
+    elif a == 4 and b == 8:
+        return 12
+    elif a == 4 and b == 9:
+        return 13
+    elif a == 4 and b == 10:
+        return 14
+
+    elif a == 5 and b == 1:
+        return 6
+    elif a == 5 and b == 2:
+        return 7
+    elif a == 5 and b == 3:
+        return 8
+    elif a == 5 and b == 4:
+        return 9
+    elif a == 5 and b == 5:
+        return 10
+    elif a == 5 and b == 6:
+        return 11
+    elif a == 5 and b == 7:
+        return 12
+    elif a == 5 and b == 8:
+        return 13
+    elif a == 5 and b == 9:
+        return 14
+    elif a == 5 and b == 10:
+        return 15
+
+    elif a == 6 and b == 1:
+        return 7
+    elif a == 6 and b == 2:
+        return 8
+    elif a == 6 and b == 3:
+        return 9
+    elif a == 6 and b == 4:
+        return 10
+    elif a == 6 and b == 5:
+        return 11
+    elif a == 6 and b == 6:
+        return 12
+    elif a == 6 and b == 7:
+        return 13
+    elif a == 6 and b == 8:
+        return 14
+    elif a == 6 and b == 9:
+        return 15
+    elif a == 6 and b == 10:
+        return 16
+
+    elif a == 7 and b == 1:
+        return 8
+    elif a == 7 and b == 2:
+        return 9
+    elif a == 7 and b == 3:
+        return 10
+    elif a == 7 and b == 4:
+        return 11
+    elif a == 7 and b == 5:
+        return 12
+    elif a == 7 and b == 6:
+        return 13
+    elif a == 7 and b == 7:
+        return 14
+    elif a == 7 and b == 8:
+        return 15
+    elif a == 7 and b == 9:
+        return 16
+    elif a == 7 and b == 10:
+        return 17
+
+    elif a == 8 and b == 1:
+        return 9
+    elif a == 8 and b == 2:
+        return 10
+    elif a == 8 and b == 3:
+        return 11
+    elif a == 8 and b == 4:
+        return 12
+    elif a == 8 and b == 5:
+        return 13
+    elif a == 8 and b == 6:
+        return 14
+    elif a == 8 and b == 7:
+        return 15
+    elif a == 8 and b == 8:
+        return 16
+    elif a == 8 and b == 9:
+        return 17
+    elif a == 8 and b == 10:
+        return 18
+
+    elif a == 9 and b == 1:
+        return 10
+    elif a == 9 and b == 2:
+        return 11
+    elif a == 9 and b == 3:
+        return 12
+    elif a == 9 and b == 4:
+        return 13
+    elif a == 9 and b == 5:
+        return 14
+    elif a == 9 and b == 6:
+        return 15
+    elif a == 9 and b == 7:
+        return 16
+    elif a == 9 and b == 8:
+        return 17
+    elif a == 9 and b == 9:
+        return 18
+    elif a == 9 and b == 10:
+        return 19
+
+    elif a == 10 and b == 1:
+        return 11
+    elif a == 10 and b == 2:
+        return 12
+    elif a == 10 and b == 3:
+        return 13
+    elif a == 10 and b == 4:
+        return 14
+    elif a == 10 and b == 5:
+        return 15
+    elif a == 10 and b == 6:
+        return 16
+    elif a == 10 and b == 7:
+        return 17
+    elif a == 10 and b == 8:
+        return 18
+    elif a == 10 and b == 9:
+        return 19
+    elif a == 10 and b == 10:
+        return 20
+
+
+
+  elif x == '-':
+      if a == 1 and b == 1:
+        return 0
+      elif a == 1 and b == 2:
+          return -1
+      elif a == 1 and b == 3:
+          return -2
+      elif a == 1 and b == 4:
+          return -3
+      elif a == 1 and b == 5:
+          return -4
+      elif a == 1 and b == 6:
+          return -5
+      elif a == 1 and b == 7:
+          return -6
+      elif a == 1 and b == 8:
+          return -7
+      elif a == 1 and b == 9:
+          return -8
+      elif a == 1 and b == 10:
+          return -9
+
+      elif a == 2 and b == 1:
+          return 1
+      elif a == 2 and b == 2:
+          return 0
+      elif a == 2 and b == 3:
+          return -1
+      elif a == 2 and b == 4:
+          return -2
+      elif a == 2 and b == 5:
+          return -3
+      elif a == 2 and b == 6:
+          return -4
+      elif a == 2 and b == 7:
+          return -5
+      elif a == 2 and b == 8:
+          return -6
+      elif a == 2 and b == 9:
+          return -7
+      elif a == 2 and b == 10:
+          return -8
+
+      elif a == 3 and b == 1:
+          return 2
+      elif a == 3 and b == 2:
+          return 1
+      elif a == 3 and b == 3:
+          return 0
+      elif a == 3 and b == 4:
+          return -1
+      elif a == 3 and b == 5:
+          return -2
+      elif a == 3 and b == 6:
+          return -3
+      elif a == 3 and b == 7:
+          return -4
+      elif a == 3 and b == 8:
+          return -5
+      elif a == 3 and b == 9:
+          return -6
+      elif a == 3 and b == 10:
+          return -7
+
+      elif a == 4 and b == 1:
+          return 3
+      elif a == 4 and b == 2:
+          return 2
+      elif a == 4 and b == 3:
+          return 1
+      elif a == 4 and b == 4:
+          return 0
+      elif a == 4 and b == 5:
+          return -1
+      elif a == 4 and b == 6:
+          return -2
+      elif a == 4 and b == 7:
+          return -3
+      elif a == 4 and b == 8:
+          return -4
+      elif a == 4 and b == 9:
+          return -5
+      elif a == 4 and b == 10:
+          return -6
+
+      elif a == 5 and b == 1:
+          return 4
+      elif a == 5 and b == 2:
+          return 3
+      elif a == 5 and b == 3:
+          return 2
+      elif a == 5 and b == 4:
+          return 1
+      elif a == 5 and b == 5:
+          return 0
+      elif a == 5 and b == 6:
+          return -1
+      elif a == 5 and b == 7:
+          return -2
+      elif a == 5 and b == 8:
+          return -3
+      elif a == 5 and b == 9:
+          return -4
+      elif a == 5 and b == 10:
+          return -5
+
+      elif a == 6 and b == 1:
+          return 5
+      elif a == 6 and b == 2:
+          return 4
+      elif a == 6 and b == 3:
+          return 3
+      elif a == 6 and b == 4:
+          return 2
+      elif a == 6 and b == 5:
+          return 1
+      elif a == 6 and b == 6:
+          return 0
+      elif a == 6 and b == 7:
+          return -1
+      elif a == 6 and b == 8:
+          return -2
+      elif a == 6 and b == 9:
+          return -3
+      elif a == 6 and b == 10:
+          return -4
+
+      elif a == 7 and b == 1:
+          return 6
+      elif a == 7 and b == 2:
+          return 5
+      elif a == 7 and b == 3:
+          return 4
+      elif a == 7 and b == 4:
+          return 3
+      elif a == 7 and b == 5:
+          return 2
+      elif a == 7 and b == 6:
+          return 1
+      elif a == 7 and b == 7:
+          return 0
+      elif a == 7 and b == 8:
+          return -1
+      elif a == 7 and b == 9:
+          return -2
+      elif a == 7 and b == 10:
+          return -3
+
+      elif a == 8 and b == 1:
+          return 7
+      elif a == 8 and b == 2:
+          return 6
+      elif a == 8 and b == 3:
+          return 5
+      elif a == 8 and b == 4:
+          return 4
+      elif a == 8 and b == 5:
+          return 3
+      elif a == 8 and b == 6:
+          return 2
+      elif a == 8 and b == 7:
+          return 1
+      elif a == 8 and b == 8:
+          return 0
+      elif a == 8 and b == 9:
+          return -1
+      elif a == 8 and b == 10:
+          return -2
+
+      elif a == 9 and b == 1:
+          return 8
+      elif a == 9 and b == 2:
+          return 7
+      elif a == 9 and b == 3:
+          return 6
+      elif a == 9 and b == 4:
+          return 5
+      elif a == 9 and b == 5:
+          return 4
+      elif a == 9 and b == 6:
+          return 3
+      elif a == 9 and b == 7:
+          return 2
+      elif a == 9 and b == 8:
+          return 1
+      elif a == 9 and b == 9:
+          return 0
+      elif a == 9 and b == 10:
+          return -1
+
+
+      elif a == 10 and b == 1:
+          return 9
+      elif a == 10 and b == 2:
+          return 8
+      elif a == 10 and b == 3:
+          return 7
+      elif a == 10 and b == 4:
+          return 6
+      elif a == 10 and b == 5:
+          return 5
+      elif a == 10 and b == 6:
+          return 4
+      elif a == 10 and b == 7:
+          return 3
+      elif a == 10 and b == 8:
+          return 2
+      elif a == 10 and b == 9:
+          return 1
+      elif a == 10 and b == 10:
+          return 0
+
+
+  elif x == '*':
+      if a == 1 and b ==1:
+          return 1
+      elif a == 1 and b == 2:
+          return 2
+      elif a == 1 and b == 3:
+          return 3
+      elif a == 1 and b == 4:
+          return 4
+      elif a == 1 and b == 5:
+          return 5
+      elif a == 1 and b == 6:
+          return 6
+      elif a == 1 and b == 7:
+          return 7
+      elif a == 1 and b == 8:
+          return 8
+      elif a == 1 and b == 9:
+          return 9
+      elif a == 1 and b == 10:
+          return 10
+
+      elif a == 2 and b == 1:
+          return 2
+      elif a == 2 and b == 2:
+          return 4
+      elif a == 2 and b == 3:
+          return 6
+      elif a == 2 and b == 4:
+          return 8
+      elif a == 2 and b == 5:
+          return 10
+      elif a == 2 and b == 6:
+          return 12
+      elif a == 2 and b == 7:
+          return 14
+      elif a == 2 and b == 8:
+          return 16
+      elif a == 2 and b == 9:
+          return 18
+      elif a == 2 and b == 10:
+          return 20
+
+      elif a == 3 and b == 1:
+          return 3
+      elif a == 3 and b == 2:
+          return 6
+      elif a == 3 and b == 3:
+          return 9
+      elif a == 3 and b == 4:
+          return 12
+      elif a == 3 and b == 5:
+          return 15
+      elif a == 3 and b == 6:
+          return 18
+      elif a == 3 and b == 7:
+          return 21
+      elif a == 3 and b == 8:
+          return 24
+      elif a == 3 and b == 9:
+          return 27
+      elif a == 3 and b == 10:
+          return 30
+
+      elif a == 4 and b == 1:
+          return 4
+      elif a == 4 and b == 2:
+          return 8
+      elif a == 4 and b == 3:
+          return 12
+      elif a == 4 and b == 4:
+          return 16
+      elif a == 4 and b == 5:
+          return 20
+      elif a == 4 and b == 6:
+          return 24
+      elif a == 4 and b == 7:
+          return 28
+      elif a == 4 and b == 8:
+          return 32
+      elif a == 4 and b == 9:
+          return 36
+      elif a == 4 and b == 10:
+          return 40
+
+      elif a == 5 and b == 1:
+          return 5
+      elif a == 5 and b == 2:
+          return 10
+      elif a == 5 and b == 3:
+          return 15
+      elif a == 5 and b == 4:
+          return 20
+      elif a == 5 and b == 5:
+          return 25
+      elif a == 5 and b == 6:
+          return 30
+      elif a == 5 and b == 7:
+          return 35
+      elif a == 5 and b == 8:
+          return 40
+      elif a == 5 and b == 9:
+          return 45
+      elif a == 5 and b == 10:
+          return 50
+
+      elif a == 6 and b == 1:
+          return 6
+      elif a == 6 and b == 2:
+          return 12
+      elif a == 6 and b == 3:
+          return 18
+      elif a == 6 and b == 4:
+          return 24
+      elif a == 6 and b == 5:
+          return 30
+      elif a == 6 and b == 6:
+          return 36
+      elif a == 6 and b == 7:
+          return 42
+      elif a == 6 and b == 8:
+          return 48
+      elif a == 6 and b == 9:
+          return 54
+      elif a == 6 and b == 10:
+          return 60
+
+      elif a == 7 and b == 1:
+          return 7
+      elif a == 7 and b == 2:
+          return 14
+      elif a == 7 and b == 3:
+          return 21
+      elif a == 7 and b == 4:
+          return 28
+      elif a == 7 and b == 5:
+          return 35
+      elif a == 7 and b == 6:
+          return 42
+      elif a == 7 and b == 7:
+          return 49
+      elif a == 7 and b == 8:
+          return 56
+      elif a == 7 and b == 9:
+          return 63
+      elif a == 7 and b == 10:
+          return 70
+
+      elif a == 8 and b == 1:
+          return 8
+      elif a == 8 and b == 2:
+          return 16
+      elif a == 8 and b == 3:
+          return 24
+      elif a == 8 and b == 4:
+          return 32
+      elif a == 8 and b == 5:
+          return 40
+      elif a == 8 and b == 6:
+          return 48
+      elif a == 8 and b == 7:
+          return 56
+      elif a == 8 and b == 8:
+          return 64
+      elif a == 8 and b == 9:
+          return 72
+      elif a == 8 and b == 10:
+          return 80
+
+      elif a == 9 and b == 1:
+          return 9
+      elif a == 9 and b == 2:
+          return 18
+      elif a == 9 and b == 3:
+          return 27
+      elif a == 9 and b == 4:
+          return 36
+      elif a == 9 and b == 5:
+          return 45
+      elif a == 9 and b == 6:
+          return 54
+      elif a == 9 and b == 7:
+          return 63
+      elif a == 9 and b == 8:
+          return 72
+      elif a == 9 and b == 9:
+          return 81
+      elif a == 9 and b == 10:
+          return 90
+
+      elif a == 10 and b == 1:
+          return 10
+      elif a == 10 and b == 2:
+          return 20
+      elif a == 10 and b == 3:
+          return 30
+      elif a == 10 and b == 4:
+          return 40
+      elif a == 10 and b == 5:
+          return 50
+      elif a == 10 and b == 6:
+          return 60
+      elif a == 10 and b == 7:
+          return 70
+      elif a == 10 and b == 8:
+          return 80
+      elif a == 10 and b == 9:
+          return 90
+      elif a == 10 and b == 10:
+          return 100
+
+
+
+  elif x == '/':
+      if b == 0:
+         return 'Ошибка деления на ноль'
+
+      elif a == 1 and b == 1:
+          return 1
+      elif a == 2 and b == 1:
+          return 2
+      elif a == 2 and b == 2:
+          return 1
+      elif a == 3 and b == 1:
+          return 3
+      elif a == 3 and b == 3:
+          return 1
+      elif a == 4 and b == 1:
+          return 4
+      elif a == 4 and b == 4:
+          return 1
+      elif a == 5 and b == 1:
+          return 5
+      elif a == 5 and b == 5:
+          return 1
+      elif a == 6 and b == 1:
+          return 6
+      elif a == 6 and b == 2:
+          return 3
+      elif a == 6 and b == 3:
+          return 2
+      elif a == 6 and b == 6:
+          return 1
+      elif a == 7 and b == 1:
+          return 7
+      elif a == 7 and b == 7:
+          return 1
+      elif a == 8 and b == 1:
+          return 8
+      elif a == 8 and b == 2:
+          return 4
+      elif a == 8 and b == 4:
+          return 2
+      elif a == 8 and b == 8:
+          return 1
+      elif a == 9 and b == 1:
+          return 9
+      elif a == 9 and b == 3:
+          return 3
+      elif a == 9 and b == 9:
+          return 1
+      elif a == 10 and b == 1:
+          return 10
+      elif a == 10 and b == 10:
+          return 1
+      elif a == 10 and b == 5:
+          return 2
+      elif a == 10 and b == 2:
+          return 5
+      else:
+          'Ошибка, числа вне диапазона'
+  else:
+      return ' Неизвестный оператор'
+
+
+
+
+
+print("Результат:", calculator(a, x, b))
